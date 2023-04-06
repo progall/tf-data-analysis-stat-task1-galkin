@@ -10,7 +10,8 @@ def solution(x: np.array) -> float:
     # Не меняйте название функции и её аргументы
     
     for i in x:
-        #i = i/10-37+math.exp(1)
-        i = i/10+math.exp(1)
+        i = i/10-37+math.exp(1)
+        #i = i/10+math.exp(1)
+        #i = i/10+math.exp(1)
     
-    return x.mean() # Ваш ответ
+    return x.max()/2 # Ваш ответ
