@@ -9,8 +9,8 @@ def solution(x: np.array) -> float:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     
-    for each i in x:
-        {i = i/10-37+ math.exp(1)
-        }
+    for i in x:
+        i = i/10-37+math.exp(1)
+        #i = i/10+math.exp(1)
     
     return x.mean() # Ваш ответ
